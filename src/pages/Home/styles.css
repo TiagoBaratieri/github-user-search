@@ -1,0 +1,30 @@
+.home-content{
+    padding-top: 117px;
+    padding-bottom: 150px;
+    padding-left: 120px;
+}
+
+.text-title {
+    font-family: Roboto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #062847;
+}
+
+.text-subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: #5A6774;
+    padding-top: 24px;
+    margin-bottom: 48px;
+
+}
