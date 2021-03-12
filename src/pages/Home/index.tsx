@@ -3,9 +3,8 @@ import Button from '../../core/components/Button';
 import {Link} from 'react-router-dom';
 import './styles.css';
 
-
 const Home = () => (
-    <div className="home-content">
+    <div className="home-container">
         <h1 className="text-title">Desafio do Capítulo 3,<br/>
          Bootcamp DevSuperior</h1>
          <p className="text-subtitle">
@@ -15,7 +14,7 @@ const Home = () => (
          Mateusz Wierzbicki: antforfigma@gmail.com 
          </p>
          <Link to="/search">
-           <Button />
+           <Button text="Começar"/>
          </Link>
     </div>
 
