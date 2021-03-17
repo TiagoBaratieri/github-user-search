@@ -1,16 +1,15 @@
 .search-container {
     margin-top: 100px;
     margin-left: 90px;
-   
 }
 
 .search-content {
     border-radius: 8px;
-    padding-bottom: 158px;
     padding-left: 94px;
     background: #E6F7FF;
     border-radius: 16px;
     padding-bottom: 50px;
+   
 }
 
 .search-title {
@@ -20,22 +19,109 @@
     line-height: 46px;
     color: #262626;
     padding-top: 66px;
-    margin-bottom: 84px;
 }
 
-.content-card {
+.search-box-input {
+    width: 540px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-left: 94px;
+    margin-bottom: 32px;
+}
+
+.result-container {
+    width: 1251px;
+    height: 387px;
+    left: 0px;
+    top: 0px;
     margin-top: 54px;
     margin-bottom: 73px;
-    padding-top: 24px;
     padding-left: 30px;
+    padding-top: 24px;
     padding-right: 43px;
     padding-bottom: 95px;
     background: #F5F5F5;
     border-radius: 8px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,278px 846px);
-    grid-gap: 11px 54px;
-    justify-content: space-between;
-    padding-bottom: 27px;
+    
 }
+
+.user-data-container {
+    display: flex;
+    margin: 20px 45px 20px 30px;
+}
+
+.user-data {
+    flex-grow: 1;
+ }
+
+ .user-stats span {
+    display: inline-block;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 1px 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }
+ 
+
+.user-avatar {
+    width: 204px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.btn-see-profile {
+    margin-left: 30px;
+    padding-bottom: 30px;
+ }
+
+.user-info {
+    width: 100%;
+    padding-top: 8px;
+    padding-left: 14px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 6px;
+ }
+ .user-info-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #1890FF;
+    margin-bottom: 19px;
+ }
+
+ .user-info div {
+    padding: 8px 10px;
+    margin-bottom: 5px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 15px;
+ }
+ 
+ .user-info div:last-of-type {
+    margin-bottom: 15px;
+ } 
+
+
+.loader {
+display: flex;
+}
+
+
+
+
+
+
+ 
 

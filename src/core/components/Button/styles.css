@@ -1,10 +1,10 @@
 .home-btn {
     width: 101px;
     height: 40px;
-    left: 120px;
     top: 595px;
     background: #1890FF;
     border-radius: 4px;
+    color: #FFFFFF;
 
 }
 
@@ -17,5 +17,5 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
+   
 }
